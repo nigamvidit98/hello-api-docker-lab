@@ -16,7 +16,7 @@ def health():
 
 @app.get("/version")
 def version():
-    return {"status": "v1.0.0"}
+    return {"status": "v1.0.1"}
 
 
 @app.get("/hostname")
