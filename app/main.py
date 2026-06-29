@@ -26,4 +26,5 @@ def hostname():
 
 @app.get("/echo")
 def echo():
-    return {"message": "Hello"}
+    return {"message": "Hello Human, adding a new endpoint to echo back a message to understand the flow of the application."}
+
