@@ -11,12 +11,12 @@ def root():
 
 @app.get("/health")
 def health():
-    return {"status": "healthy"}
+    return {"health status": "healthy"}
 
 
 @app.get("/version")
 def version():
-    return {"status": "v1.0.0"}
+    return {"Latest Version": "v1.0.0"}
 
 
 @app.get("/hostname")
@@ -26,5 +26,5 @@ def hostname():
 
 @app.get("/echo")
 def echo():
-    return {"message": "Hello Human, adding a new endpoint to echo back a message to understand the flow of the application."}
+    return {"message": "Hello Human, adding a new endpoint to check conflicts"}
 
